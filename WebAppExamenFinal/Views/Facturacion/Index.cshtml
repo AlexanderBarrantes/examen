@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Index</title>
+</head>
+<body>
+    @*<div class="jumbotron">
+            <button class="glyphicon glyphicon-plus"></button>
+            <button class="glyphicon glyphicon-pencil"></button>
+            <button class="glyphicon glyphicon-minus"></button>
+        </div>*@
+    <div class="row">
+
+        <div id="table" class="table-editable">
+            <span class="table-add glyphicon glyphicon-plus"></span>
+            <table class="table">
+                <tr>
+                    <th>Cliente</th>
+                    <th>Numero Factura</th>
+                    <th>Fecha</th>
+                    <th>Subtotal</th>
+                    <th>Impuestos</th>
+                    <th>Total</th>
+
+                    <th>
+                        Activo
+                    </th>
+
+                </tr>
+                <tr>
+                    <td contenteditable="true">Stir Fry</td>
+                    <td contenteditable="true">stir-fry</td>
+                    <td contenteditable="true">stir-fry</td>
+                    <td contenteditable="true">stir-fry</td>
+                    <td contenteditable="true">stir-fry</td>
+                    <td contenteditable="true">stir-fry</td>
+                    <td contenteditable="true">stir-fry</td>
+
+                </tr>
+                <tr>
+                    <td contenteditable="true">0</td>
+                    <td contenteditable="true">1</td>
+                    <td contenteditable="true">2</td>
+                    <td contenteditable="true">3</td>
+                    <td contenteditable="true">4</td>
+                    <td contenteditable="true">5</td>
+                    <td contenteditable="true">5</td>
+
+
+                </tr>
+                @*<td>
+                            <span class="table-remove glyphicon glyphicon-trash btn-default"></span>
+                        </td>
+
+                    </tr>
+                      <tr class="hide">
+                      <td>
+                            <button class="table-remove glyphicon glyphicon-remove"></button>
+                        </td>
+                    </tr>*@
+            </table>
+        </div>
+
+        @*<button id="export-btn" class="btn btn-primary">Export Data</button>
+            <p id="export"></p>*@
+    </div>
+
+</body>
+</html>
+
